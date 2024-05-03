@@ -3,9 +3,10 @@ public class main{
         int num=12345;
         while(num>0)
         {
-            System.out.println((num/10)%10);
+            System.out.println(num%10);
+            num=num/10;
         }
-        num=num/10;
+
     }
 
 }
